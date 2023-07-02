@@ -962,6 +962,11 @@ i {
 	border-radius: 5px;
 	font-family: Mitra Bold;
 	margin-right: 42px;
+	transition: 0.3s;
+}
+
+.under-items-btn:hover {
+	background-color: #b95700;
 }
 
 .main-center-cantianer {
@@ -1377,4 +1382,58 @@ i {
 
 .title-conten-box3:hover {
 	color: #616161;
+}
+
+.main-end-frame-cantianer {
+	max-width: 1222px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.main-end-frame {
+	margin-top: 10rem;
+	display: flex;
+	align-items: center;
+	background-image: linear-gradient(
+		rgb(255 255 255),
+		rgb(172 172 172),
+		rgb(255 255 255)
+	);
+	height: 10rem;
+}
+.main-end-frame-right {
+	width: 50%;
+	margin-right: 3rem;
+}
+.main-end-frame-text {
+	font-size: 41px;
+	font-family: Mitra Bold;
+}
+.main-end-frame-title {
+	font-size: 25px;
+	margin-top: -9px;
+	color: #a24d00;
+	font-family: Mitra Bold;
+}
+.main-end-frame-left {
+	width: 50%;
+	display: flex;
+	justify-content: end;
+}
+.main-end-frame-btn {
+	text-decoration: none;
+	font-size: 22px;
+	background-color: #ef7f1a;
+	color: #fff;
+	padding: 11px 36px;
+	border-radius: 5px;
+	margin-top: 3rem;
+	margin-left: 3rem;
+	font-family: Mitra Bold;
+	transition: 0.3s;
+}
+
+.main-end-frame-btn:hover {
+	background-color: #b95700;
 }
