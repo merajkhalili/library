@@ -1396,24 +1396,25 @@ i {
 	display: flex;
 	align-items: center;
 	background-image: linear-gradient(
+		rgb(247 247 247),
 		rgb(255 255 255),
-		rgb(172 172 172),
-		rgb(255 255 255)
+		rgb(241 241 241)
 	);
 	height: 10rem;
+	border-radius: 12px;
 }
 .main-end-frame-right {
 	width: 50%;
 	margin-right: 3rem;
 }
 .main-end-frame-text {
-	font-size: 41px;
+	font-size: 38px;
 	font-family: Mitra Bold;
 }
 .main-end-frame-title {
-	font-size: 25px;
+	font-size: 23px;
 	margin-top: -9px;
-	color: #a24d00;
+	color: #e06a00;
 	font-family: Mitra Bold;
 }
 .main-end-frame-left {
@@ -1436,4 +1437,216 @@ i {
 
 .main-end-frame-btn:hover {
 	background-color: #b95700;
+}
+
+.comments-cantianer {
+	max-width: 1330px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+	display: flex;
+	align-items: center;
+	margin-top: 5rem;
+}
+.comments-image {
+	width: 5rem;
+}
+.comments-text {
+	font-size: 24px;
+	margin-right: 20px;
+	margin-top: 40px;
+	font-family: Mitra Bold;
+}
+.comments-title {
+	max-width: 1222px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+	font-size: 23px;
+	padding-right: 70px;
+	margin-top: -11px;
+	font-family: Mitra;
+	color: #a5a5a5;
+}
+
+.comment-box-cantianer {
+	max-width: 1330px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.comment-boxs {
+	margin-top: 5rem;
+	display: flex;
+	justify-content: space-around;
+}
+.comment-box1 {
+	width: 26rem;
+	height: 13rem;
+	background-color: #e5e5e5;
+	border: 6px solid #e0e0e0;
+	border-radius: 7px;
+}
+.comment-box-img-text1 {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.comment-img1 {
+	width: 72px;
+}
+.comment-title1 {
+	font-size: 24px;
+	margin-right: -102px;
+	font-family: Mitra;
+}
+.comment-logo1 {
+	width: 79px;
+	margin-left: 3rem;
+}
+.comment-box-text1 {
+	font-size: 23px;
+	width: 400px;
+	margin-top: 31px;
+	padding-right: 12px;
+	line-height: 34px;
+	font-family: Mitra;
+}
+
+.comment-box2 {
+	width: 26rem;
+	height: 13rem;
+	background-color: #e5e5e5;
+	border: 6px solid #e0e0e0;
+	border-radius: 7px;
+}
+.comment-box-img-text2 {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.comment-img2 {
+	width: 72px;
+}
+.comment-title2 {
+	font-size: 24px;
+	margin-right: -102px;
+	font-family: Mitra;
+}
+.comment-logo2 {
+	width: 79px;
+	margin-left: 3rem;
+}
+.comment-box-text2 {
+	font-size: 23px;
+	width: 400px;
+	margin-top: 31px;
+	padding-right: 12px;
+	line-height: 34px;
+	font-family: Mitra;
+}
+
+.comment-box3 {
+	width: 26rem;
+	height: 13rem;
+	background-color: #e5e5e5;
+	border: 6px solid #e0e0e0;
+	border-radius: 7px;
+}
+.comment-box-img-text3 {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.comment-img3 {
+	width: 87px;
+	height: 71px;
+	border-radius: 17px;
+}
+.comment-title3 {
+	font-size: 24px;
+	margin-right: -102px;
+	font-family: Mitra;
+}
+.comment-logo3 {
+	width: 79px;
+	margin-left: 3rem;
+}
+.comment-box-text3 {
+	font-size: 23px;
+	width: 400px;
+	margin-top: 13px;
+	padding-right: 12px;
+	line-height: 34px;
+	font-family: Mitra;
+}
+
+.top-footer-cantianer {
+	max-width: 1222px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.top-footer {
+	margin-top: 8rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-image: linear-gradient(#ef7f1a, #ff8d26);
+	border-radius: 9px;
+}
+.top-footer-text {
+	font-size: 37px;
+	padding-right: 37px;
+	color: #fff;
+	font-family: Mitra Bold;
+}
+.inestagran-icone {
+	background-color: #ffffff9c;
+	padding: 8px 10px;
+	border-radius: 8px;
+	margin-left: -337px;
+	transition: 0.4s;
+}
+.inestagran {
+	width: 24px;
+}
+.telegram-icone {
+	background-color: #ffffff9c;
+	padding: 8px 10px;
+	border-radius: 8px;
+	margin-left: -336px;
+	transition: 0.4s;
+}
+.telegram {
+	width: 25px;
+}
+.watsapp-icone {
+	background-color: #ffffff9c;
+	padding: 8px 10px;
+	border-radius: 8px;
+	margin-left: 37px;
+	transition: 0.4s;
+}
+.watsapp {
+	width: 25px;
+}
+
+.inestagran-icone:hover {
+	background-color: #d0d0d09c;
+	margin-top: -15px;
+}
+
+.telegram-icone:hover {
+	background-color: #d0d0d09c;
+	margin-top: -15px;
+}
+
+.watsapp-icone:hover {
+	background-color: #d0d0d09c;
+	margin-top: -15px;
 }
