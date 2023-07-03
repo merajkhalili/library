@@ -1508,7 +1508,7 @@ i {
 	margin-left: 3rem;
 }
 .comment-box-text1 {
-	font-size: 23px;
+	font-size: 19px;
 	width: 400px;
 	margin-top: 31px;
 	padding-right: 12px;
@@ -1541,7 +1541,7 @@ i {
 	margin-left: 3rem;
 }
 .comment-box-text2 {
-	font-size: 23px;
+	font-size: 19px;
 	width: 400px;
 	margin-top: 31px;
 	padding-right: 12px;
@@ -1576,7 +1576,7 @@ i {
 	margin-left: 3rem;
 }
 .comment-box-text3 {
-	font-size: 23px;
+	font-size: 19px;
 	width: 400px;
 	margin-top: 13px;
 	padding-right: 12px;
@@ -1649,4 +1649,113 @@ i {
 .watsapp-icone:hover {
 	background-color: #d0d0d09c;
 	margin-top: -15px;
+}
+
+.footer {
+	background-color: #000;
+	margin-top: 7rem;
+	height: 22rem;
+}
+.footer-cantianer {
+	max-width: 1394px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.First-footer {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 2rem;
+}
+.First-footer-img {
+}
+.First-footer-img2 {
+	width: 37px;
+	padding-right: 42.5rem;
+}
+.First-footer-text {
+	color: #fff;
+	margin-bottom: 0;
+	font-size: 18px;
+	padding-left: 19rem;
+	font-family: Mitra Bold;
+}
+
+.the-second-footer {
+	margin-top: 4rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.the-second-text1 {
+	color: #fff;
+	text-decoration: none;
+	font-size: 22px;
+	font-family: Mitra;
+}
+.the-second-text2 {
+	color: #fff;
+	text-decoration: none;
+	font-size: 21px;
+	font-family: Mitra;
+}
+.the-second-text3 {
+	color: #fff;
+	text-decoration: none;
+	font-size: 21px;
+	font-family: Mitra;
+}
+.the-second-text4 {
+	color: #fff;
+	text-decoration: none;
+	font-size: 22px;
+	font-family: Mitra;
+}
+.the-second-text5 {
+	color: #fff;
+	text-decoration: none;
+	font-size: 21px;
+	font-family: Mitra;
+}
+.the-second-box {
+	padding: 14px 11rem;
+	border-radius: 7px;
+	font-size: 16px;
+	font-family: Mitra Bold;
+}
+.the-second-btn {
+	color: #fff;
+	text-decoration: none;
+	background-color: #ef7f1a;
+	margin-right: -226.5px;
+	font-size: 18px;
+	border-radius: 5px;
+	margin-top: 1px;
+	padding: 12.5px 50px;
+	font-family: Mitra Bold;
+}
+
+.line-footer {
+	color: #535353;
+	margin-top: 2.5rem;
+}
+
+.Third-footer {
+}
+.Third-footer-text {
+}
+.icons {
+}
+.inestagran-Third-footer {
+}
+.inestagran-footer {
+}
+.telegram-Third-footer {
+}
+.telegram-footer {
+}
+.watsapp-Third-footer {
+}
+.watsapp-footer {
 }
