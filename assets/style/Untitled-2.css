@@ -1054,6 +1054,7 @@ i {
 	border-radius: 4px;
 	transition: 0.6s;
 }
+
 .image-center-box2 {
 	width: 4rem;
 }
@@ -1813,4 +1814,267 @@ i {
 .watsapp-footer:hover {
 	color: #6e3400;
 	margin-bottom: 12px;
+}
+
+/*rispansiv*/
+
+@media only screen and (max-width: 1200px) {
+	.Search {
+		width: 30rem;
+	}
+	.nav-links {
+		display: flex;
+		flex-direction: column;
+	}
+	.nav-link1 {
+		text-decoration: none;
+		background-color: #ef7f1a;
+		border-radius: 5px;
+		padding: 0.8rem 1.5rem;
+		color: #ffff;
+		margin-left: 0.5rem;
+		font-family: Mitra Bold;
+		margin-right: 18px;
+		margin-bottom: 11px;
+	}
+	.under-nav-texts {
+		margin: 0;
+		padding-top: 4rem;
+	}
+	.line-under-cantianer {
+		display: none;
+	}
+	.line-under-cantianer1 {
+		display: none;
+	}
+	.bottom-right-box {
+		width: 15rem;
+	}
+	.left-img {
+		width: 33rem;
+	}
+	.header-bottom-contianer {
+		margin-top: 7rem;
+		margin-bottom: 6rem;
+	}
+	.under-header-bottom-box1 {
+		margin-bottom: 27px;
+	}
+	.mian {
+		background-color: #f3f3f3;
+		margin-top: 5.5rem;
+		height: 117rem;
+	}
+	.text-top-box {
+		width: 55rem;
+	}
+	.item4 {
+		margin-bottom: 2rem;
+	}
+	.under-items-img {
+		width: 29rem;
+	}
+	.under-items-text2 {
+		font-size: 30px;
+		width: 24rem;
+		font-family: Mitra;
+		color: #707070;
+		padding-right: 22px;
+		margin-bottom: 3rem;
+	}
+	.under-items-left {
+		height: 24rem;
+	}
+	.main-center-title {
+		padding-right: 47px;
+	}
+	.main-content-left {
+		width: 62%;
+		display: flex;
+		justify-content: space-between;
+		margin-right: 6rem;
+		flex-wrap: wrap;
+		margin-top: 13rem;
+	}
+	.main-content-box1 {
+		margin-bottom: 2rem;
+	}
+	.main-center-content {
+		display: flex;
+		align-items: center;
+		margin-top: -2rem;
+	}
+	.main-end-frame {
+		height: 15rem;
+	}
+	.comment-boxs {
+		flex-wrap: wrap;
+	}
+	.comment-box1 {
+		margin-bottom: 2rem;
+	}
+	.inestagran-icone {
+		margin-left: -268px;
+	}
+	.telegram-icone {
+		margin-left: -270px;
+	}
+	.watsapp-icone {
+		margin-left: 154px;
+	}
+	.First-footer-img {
+		height: 40px;
+	}
+	.First-footer-img2 {
+		width: 39px;
+		height: 3rem;
+		padding-right: 27.5rem;
+	}
+	.First-footer-text {
+		color: #fff;
+		margin-bottom: 0;
+		font-size: 18px;
+		padding-left: 6rem;
+	}
+	.footer {
+		height: 38rem;
+	}
+	.line-footer {
+		display: none;
+	}
+	.the-second-box {
+		margin-top: 16px;
+	}
+	.the-second-btn {
+		margin-top: 3px;
+		margin-right: -14px;
+	}
+	.the-second-footer {
+		margin-top: 4rem;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.nav {
+		flex-wrap: wrap;
+		flex-direction: column-reverse;
+	}
+
+	.nav-links {
+		margin-left: 16px;
+		margin-bottom: 2rem;
+	}
+	.left-img {
+		width: 26rem;
+		height: 26rem;
+	}
+	.search-box {
+		margin-bottom: 2rem;
+	}
+	.bottom-right-box {
+		margin-bottom: 2rem;
+	}
+	.text-top-box {
+		width: 44rem;
+	}
+	.mian {
+		height: 149rem;
+	}
+	.item5 {
+		margin-bottom: 2rem;
+	}
+	.under-items-img {
+		width: 22rem;
+	}
+	.under-items-text2 {
+		font-size: 24px;
+		width: 18rem;
+	}
+	.main-content-left {
+		margin-right: 10rem;
+	}
+	.main-end-frame-right {
+		margin-left: 58px;
+	}
+	.main-end-frame-left {
+		width: 35%;
+	}
+	.main-end-frame {
+		height: 20rem;
+	}
+	.comment-box2 {
+		margin-bottom: 2rem;
+	}
+	.inestagran-icone {
+		display: none;
+	}
+	.telegram-icone {
+		display: none;
+	}
+	.watsapp-icone {
+		display: none;
+	}
+	.First-footer-img2 {
+		padding-right: 13.5rem;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.nav-links {
+		margin-left: 16px;
+		margin-top: 2rem;
+	}
+	.under-nav-texts {
+		margin: 0;
+		padding-top: 4rem;
+		display: flex;
+		flex-direction: column;
+		height: 22rem;
+		margin-right: -4rem;
+	}
+	.left-img {
+		display: none;
+	}
+	.header-bottom-right {
+		width: 285rem;
+		background-color: #ff9b2c8f;
+		padding-right: 3rem;
+		border-radius: 14px;
+	}
+	.under-header-bottom-box3 {
+		width: 12rem;
+		margin-bottom: 2rem;
+	}
+	.text-top-box {
+		max-width: 19rem;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.item2 {
+		margin-bottom: 2rem;
+	}
+	.item3 {
+		margin-bottom: 2rem;
+	}
+	.item6 {
+		margin-bottom: 2rem;
+	}
+	.item7 {
+		margin-bottom: 2rem;
+	}
+	.mian {
+		height: 290rem;
+	}
+	.under-items-text2 {
+		font-size: 20px;
+		width: 14rem;
+	}
+	.under-items-left {
+		height: 28rem;
+	}
+}
+@media only screen and (max-width: 567px) {
 }
